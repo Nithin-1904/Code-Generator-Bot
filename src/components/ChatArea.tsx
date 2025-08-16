@@ -19,7 +19,7 @@ const formSchema = z.object({
 });
 
 const ChatArea = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [generatedCode, setGeneratedCode] = useState<string | undefined>(
     undefined
   );
